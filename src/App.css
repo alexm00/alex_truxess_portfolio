@@ -14,9 +14,12 @@
 }
 
 @font-face {
-  font-family: "Chicago";
+  font-family: chicago;
   src: local("ChicagoNormal"),
-    url("./fonts/ChicagoNormal.ttf") format("truetype");
+    url("./fonts/sysfont.woff") format("truetype");
+}
+.chicago {
+  font-family: chicago;
 }
 
 .App-header {

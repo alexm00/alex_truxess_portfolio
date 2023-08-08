@@ -20,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <div className="chicago">Hello my name is Alex</div>
       </header>
     </div>
   );
