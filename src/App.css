@@ -13,6 +13,14 @@
   }
 }
 
+@font-face {
+  font-family: 'Sysfont';
+  src: url('sysfont.woff2') format('woff2'),
+  url('sysfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
