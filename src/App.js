@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './headshot.jpg';
 import './App.css';
 
 //font
@@ -10,17 +10,17 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Edit <code>src/App.js</code> and save to reload. */}
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/channel/UCvCvbkzjVlBV27hTX-T2org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <div className="chicago">Animation Channel</div>
         </a>
-        <div className="chicago">Hello my name is Alex</div>
+        <div className="chicago">Hello my name is Alex Truxess</div>
       </header>
     </div>
   );
