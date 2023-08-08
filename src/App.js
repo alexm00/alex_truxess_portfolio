@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+//font
+  import "./fonts/ChicagoNormal.ttf";
+
 function App() {
   return (
     <div className="App">
