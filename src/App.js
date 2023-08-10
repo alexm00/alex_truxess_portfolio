@@ -1,29 +1,48 @@
-import logo from './headshot.jpg';
 import './App.css';
 
-//font
-  import "./fonts/ChicagoNormal.ttf";
+
+//import files
+  import About from './About'
+  import Home from './Home'
+  import NavBar from "./NavBar"
+
+import {Routes, Route} from "react-router-dom"
+
+
+  // return (
+  //   <div classname="App">
+  //     <header className="App-header">
+  //     <div className="chicago">
+  //       <Typical
+  //         loop={1}
+  //         wrapper='b'
+  //         steps={['Name: Alex Truxess', 1000]}/>
+  //     </div>
+  //     <div className="chicago">
+  //       <Typical
+  //         loop={1}
+  //         wrapper='b'
+  //         steps={['Occupation: MEng CS Student at VT', 1000]}/>
+  //     </div>
+  //     </header>
+  //   </div>
+  // )
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/channel/UCvCvbkzjVlBV27hTX-T2org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="chicago">Animation Channel</div>
-        </a>
-        <div className="chicago">Hello my name is Alex Truxess</div>
+          <NavBar />
+            <Routes>
+              <Route path='/' eaxct element={<Home/>}/>
+              <Route path='/about' element={<About/>}/>
+            </Routes>
       </header>
     </div>
+
   );
 }
+
 
 export default App;
