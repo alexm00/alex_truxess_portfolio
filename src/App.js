@@ -4,6 +4,8 @@ import './App.css';
 //import files
   import About from './About'
   import Home from './Home'
+  import Projects from './Projects'
+  import Links from "./Links"
   import NavBar from "./NavBar"
 
 import {Routes, Route} from "react-router-dom"
@@ -37,6 +39,8 @@ function App() {
             <Routes>
               <Route path='/' eaxct element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
+              <Route path='/projects' element={<Projects/>}/>
+              <Route path='/links' element={<Links/>}/>
             </Routes>
       </header>
     </div>
