@@ -1,9 +1,16 @@
 import React from "react";
 
-function Links() {
+function Contact() {
     return (
         <div className="App">
           <header className="App-header">
+                <h1 className="chicago" style={{color: "#63D471"}}>Contact Me</h1>
+                <h2 className="chicago">
+                    Email: alexm00@vt.edu
+                </h2>
+                <h2 className="chicago">
+                    Phone: 571-314-3856
+                </h2>
                 <h2>
                     <a
                         className="App-link"
@@ -13,20 +20,10 @@ function Links() {
                         >
                         <div className="chicago">LinkedIn</div>
                     </a>
-                    <p>
-                        <a
-                            className="App-link"
-                            href="https://www.youtube.com/channel/UCvCvbkzjVlBV27hTX-T2org"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >
-                            <div className="chicago">Animation Channel</div>
-                        </a>
-                    </p>
                 </h2>
             </header>
         </div>
     );
 }
 
-export default Links;
+export default Contact;

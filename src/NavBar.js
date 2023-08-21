@@ -21,10 +21,10 @@ const NavBar = () => {
             {/* Second Nav */}
             {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
           <NavBtn>
-            <NavBtnLink to='/links'>Links</NavBtnLink>
-          </NavBtn>
-          <NavBtn>
                 <NavBtnLink to='/about'>About</NavBtnLink>
+            </NavBtn>
+            <NavBtn>
+                <NavBtnLink to='/contact'>Contact Me</NavBtnLink>
             </NavBtn>
         </Nav>
       </>
