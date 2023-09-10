@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './headshot.jpg';
+import logo from './headshot2.jpg';
 
 //typing animation
 import Typical from 'react-typical';
