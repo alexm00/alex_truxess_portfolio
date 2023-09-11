@@ -1,6 +1,8 @@
 import React from "react";
 import logo from './Moss1.jpg';
 import logo2 from './Moss2.jpg';
+import logo3 from './figma_home.jpg'
+import logo4 from './figma_watch.jpg'
 
 function Projects() {
     return (
@@ -40,6 +42,18 @@ function Projects() {
                 <p className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>
                     I worked on the back-end of the project, where I built an API with python. I then connected that API to a database using DynamoDB so that the front end could reach the data.
                 </p>
+                <h2 className="chicago" style={{marginRight: "50%", marginLeft: "3%", color: "#63D471"}}>Figma Project</h2>
+                <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
+                    For my Intro to Human-Computer interaction course our final project was a design for a streaming service that could access all other services. This way, you could access all of your subscriptions from one place.
+                </p>
+                <p className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>
+                    Since it was during the time period when Covid-19 was still prominent, we also added in our design the ability to have watch parties with friends or random users who also had subscriptions to the same services.
+                </p>
+                <img src={logo3} className="App-logo" alt="logo" />
+                <p className="chicago" style={{marginRight: "3%", marginLeft: "3%"}}>
+                    With the shift in which streaming services may just turning into the new "cable packages", we wanted to beat others to the chase of showing what that possible future may look like.
+                </p>
+                <img src={logo4} className="App-logo" alt="logo" />
             </header>
         </div>
     );
