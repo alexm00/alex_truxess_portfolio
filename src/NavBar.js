@@ -1,6 +1,7 @@
 import React from 'react'
 import {
   Nav,
+  Bars,
   NavBtn,
   NavBtnLink,
 } from './NavBarElements';
@@ -10,6 +11,7 @@ const NavBar = () => {
     return (
       <>
         <Nav>
+          <Bars />
             <NavBtn>
                 <NavBtnLink to='/'>Home</NavBtnLink>
             </NavBtn>
