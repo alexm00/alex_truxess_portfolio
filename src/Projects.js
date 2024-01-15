@@ -48,7 +48,7 @@ function Projects() {
                 <p>
                         <a
                             className="App-link"
-                            href="https://www.youtube.com/channel/UCvCvbkzjVlBV27hTX-T2org"
+                            href="https://www.youtube.com/@truxess/videos"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
