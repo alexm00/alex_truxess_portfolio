@@ -9,9 +9,31 @@ function Projects() {
         <div>
             <header>
                 <h1 className="chicago" style={{color: "#63D471"}}>Projects</h1>
+
+                <h2 className="chicago" style={{marginRight: "50%", marginLeft: "3%", color: "#63D471"}}>SculptAR Park</h2>
+                <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
+                    For my Virtual Environments course, I developed a high fidelity Figma app that serves as the design idea behind the UI for an AR Sculpture Park at Virginia Tech.
+                </p>
+                <p className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>
+                    Users have the opportunity to manipulate sculptures themselves with placement, rotation, size, paint brush effects, and spray paint effects.
+                </p>
+                <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
+                    Users would also be able to place stickers, access a map to find other sculptures, and watch timelapses on the changes made to a scultpure over time.
+                </p>
+                <p>
+                        <a
+                            className="App-link"
+                            href="https://www.figma.com/proto/LeI7t25YrCbKdZjjgJdOSp/ScupltAR-Wireframe?type=design&node-id=1-4&t=bJdC9ODSZYW5mBn4-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1&mode=design"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <div className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>SculptAR Figma App</div>
+                        </a>
+                    </p>
+                
                 <h2 className="chicago" style={{marginRight: "50%", marginLeft: "3%", color: "#63D471"}}>Smart Parking App Prototype</h2>
                 <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
-                    For my Models and Theories of Human-Computer Interaction course, I developed a high fidelity Figma app for my team which would serve as a smart parking service at Virginia Tech.
+                    For my Models and Theories of Human-Computer Interaction course, I also developed a Figma app for my team which would serve as a smart parking service at Virginia Tech.
                 </p>
                 <p className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>
                     It allows users to determine which parking spots are open in different parking lots, and navigate to their selected locations. There is also the option to navigate back to your spot when users return to their vehicles.
