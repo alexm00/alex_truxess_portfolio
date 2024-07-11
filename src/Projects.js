@@ -30,6 +30,27 @@ function Projects() {
                             <div className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>SculptAR Figma App</div>
                         </a>
                     </p>
+
+                <h2 className="chicago" style={{marginRight: "50%", marginLeft: "3%", color: "#63D471"}}>MDS Dimension Reduction Gamification</h2>
+                <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
+                    For my Information Visualization course, I worked with my team to create an educational "game" for learning MDS dimension reduction.
+                </p>
+                <p className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>
+                    This tool is intended to help teach other students at Virginia Tech the concept of dimension reduction by creating the reduction themselves.
+                </p>
+                <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
+                    Users can place animals onto the screen and attempt to reduce the error as much as possible by using colors.
+                </p>
+                <p>
+                        <a
+                            className="App-link"
+                            href="https://observablehq.com/d/f3da082a1f760a49"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <div className="chicago" style={{marginLeft: "40%", marginRight: "3%"}}>Observable Link</div>
+                        </a>
+                    </p>
                 
                 <h2 className="chicago" style={{marginRight: "50%", marginLeft: "3%", color: "#63D471"}}>Smart Parking App Prototype</h2>
                 <p className="chicago" style={{marginRight: "40%", marginLeft: "3%"}}>
