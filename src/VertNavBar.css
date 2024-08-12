@@ -1,0 +1,105 @@
+.vertheader {
+    position: fixed;
+    height: 100%; /* Make the vertheader full height */
+    width: 200px; /* Set a fixed width for the vertical navbar */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.9);
+    font-family: chicago;
+}
+
+.vertheader .navbar {
+    display: flex;
+    flex-direction: column; /* Stack the logo and menu vertically */
+    align-items: flex-start; /* Align items to the left */
+    max-width: 200px; /* Match the width of the vertheader */
+    margin: 0; /* Remove margin to align with the edge */
+    height: 100%;
+    padding: 1rem 0; /* Adjust padding for vertical layout */
+}
+
+.vertheader .nav-menu {
+    display: flex;
+    flex-direction: column; /* Stack menu items vertically */
+    width: 100%; /* Ensure it spans the full width of the navbar */
+}
+
+.vertheader .nav-item {
+    padding: 1rem 0; /* Adjust padding to space items vertically */
+    font-weight: 500;
+    width: 100%; /* Make sure each item spans the full width */
+}
+
+.vertheader .nav-menu a {
+    color: #ffffff;
+    width: 100%; /* Ensure links take up full width */
+    display: block; /* Make links block-level for full clickable area */
+    padding-left: 1rem; /* Add padding to align text */
+}
+
+.nav-item .active {
+    padding-left: 1rem; /* Adjust padding to align text */
+    border-left: 3px solid var(--secondary-color); /* Use left border instead of bottom */
+    border-bottom: none; /* Remove bottom border */
+}
+
+.vertheader .nav-item a:hover {
+    padding-left: 1rem; /* Adjust padding to align text */
+    border-left: 3px solid var(--secondary-color); /* Use left border instead of bottom */
+    border-bottom: none; /* Remove bottom border */
+}
+
+.vertheader .navbar img {
+    width: 150px;
+    margin-bottom: 2rem; /* Add space between the logo and menu */
+}
+
+.hamburger {
+    display: none; /* Keep hidden by default */
+}
+
+@media screen and (max-width:940px) {
+    .vertheader {
+        width: 100%; /* Full width on smaller screens */
+        height: 90px; /* Return to horizontal layout */
+        background-color: rgba(0,0,0,.9);
+    }
+
+    .vertheader .navbar {
+        flex-direction: row; /* Horizontal layout on smaller screens */
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.9);
+        width: 100%;
+        height: 90vh;
+        z-index: 999;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .vertheader .navbar img {
+        width: 150px;
+    }
+}

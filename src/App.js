@@ -1,4 +1,5 @@
 import './App.css';
+import Starfield from './Starfield.tsx';
 
 
 //import files
@@ -8,7 +9,7 @@ import './App.css';
   import Contact from "./Contact"
   import NavBar from "./NavBar"
 
-import {Routes, Route} from "react-router-dom"
+// import {Routes, Route} from "react-router-dom"
 
 
   // return (
@@ -31,20 +32,47 @@ import {Routes, Route} from "react-router-dom"
   // )
 
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <Starfield
+//         starCount={1000}
+//         starColor={[255, 255, 255]}
+//         speedFactor={0.05}
+//         backgroundColor="black"
+//       />
+//       <header className="App-header">
+//           <NavBar />
+//             <Routes>
+//               <Route path='/' eaxct element={<Home/>}/>
+//               <Route path='/about' element={<About/>}/>
+//               <Route path='/projects' element={<Projects/>}/>
+//               <Route path='/contact' element={<Contact/>}/>
+//             </Routes>
+//       </header>    
+
+//     </div>
+
+//   );
+// }
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <NavBar />
-            <Routes>
-              <Route path='/' eaxct element={<Home/>}/>
-              <Route path='/about' element={<About/>}/>
-              <Route path='/projects' element={<Projects/>}/>
-              <Route path='/contact' element={<Contact/>}/>
-            </Routes>
-      </header>
+      <Starfield
+        starCount={1000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+         backgroundColor="black"
+       />
+      <div>
+        <NavBar />
+        <Home />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
     </div>
-
   );
 }
 

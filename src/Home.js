@@ -13,14 +13,15 @@ function clickMe(){
 
 function Home() {
     return (
-        <div className="App">
+        <div className="home">
           <header className="App-header">
+            <h1 className="chicago2" style={{color: "#63D471"}}>Welcome to my personal portfolio!</h1>
             <p>
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo"/>
             </p>
             <p>
               <button onClick={clickMe}>
-                <div className="chicago">Display Information</div>
+                <div className="chicago7">Display Information</div>
               </button>
             </p>
             
