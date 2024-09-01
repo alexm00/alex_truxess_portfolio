@@ -23,6 +23,7 @@
   }
   
   .App-logo3 {
+    clear:both;
     pointer-events: none;
     display:flex;
     margin-left: auto;
@@ -33,6 +34,7 @@
   }
   
   .App-logo4 {
+    clear: both;
     pointer-events: none;
     display:flex;
     margin-left: auto;
@@ -94,6 +96,7 @@
     padding-left: 50px;
   }
   .chicago3 {
+    justify-content: center;
     display: flex;
     font-family: chicago;
     float: left;
@@ -104,6 +107,7 @@
     clear: left
   }
   .chicago4 {
+    justify-content: center;
     display: flex;
     font-family: chicago;
     float: right;
@@ -123,8 +127,8 @@
     float: right;
     margin: 0 auto;
     border: 2px solid white;
-    border-radius: 30px;
-    padding:20px 20px;
+    border-radius: 20px;
+    padding:10px 10px;
   }
   
   .chicago6 {
@@ -136,8 +140,8 @@
   
     width: 40%;
     border: 2px solid white;
-    border-radius: 30px;
-    padding:20px 20px;
+    border-radius: 20px;
+    padding:10px 10px;
   }
   .chicago7 {
     display: flex;
@@ -179,13 +183,7 @@
     margin-right: 30px;
   }
   .chicago10 {
-    display: flex;
-    font-family: chicago;
-    width: 40%;
-    border: 2px solid white;
-    border-radius: 30px;
-    padding:20px 20px;
-  
+    clear:both;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,11 +191,11 @@
     margin: 0 auto;
     text-align:center;
     border: 2px solid white;
-    border-radius: 30px;
-    padding:20px 20px;
+    border-radius: 20px;
+    padding:10px 10px;
     margin-top: 50px;
     margin-bottom: 50px;
-    width:30%
+    width:40%
   }
   
   .shimmer {
@@ -207,7 +205,7 @@
     -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
     background-repeat: no-repeat;
     animation: shimmer 2.5s infinite;
-    font-size: 50px;
+    font-size: 25px;
   }
   
   @keyframes shimmer {
@@ -345,6 +343,7 @@
     padding-right: -150px;
   }
   .chicago3 {
+    justify-content: center;
     display: flex;
     font-family: chicago;
     float: left;
@@ -355,6 +354,7 @@
     clear: left
   }
   .chicago4 {
+    justify-content: center;
     display: flex;
     font-family: chicago;
     float: right;
@@ -430,13 +430,7 @@
     margin-right: 30px;
   }
   .chicago10 {
-    display: flex;
-    font-family: chicago;
-    width: 40%;
-    border: 2px solid white;
-    border-radius: 30px;
-    padding:20px 20px;
-  
+    clear:both;
     display: flex;
     justify-content: center;
     align-items: center;

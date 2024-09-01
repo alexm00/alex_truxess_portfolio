@@ -69,13 +69,13 @@ function Contact() {
             <h1 className="chicago2" style={{color: "#63D471"}}>CONTACT ME</h1>
             <p className="width">
                 <div className="Info">
-                    <h2 className="chicago3">
+                    <p className="chicago3">
                         Email: alexm00@vt.edu
-                    </h2>
-                    <h2 className="chicago4">
+                    </p>
+                    <p className="chicago4">
                         Phone: 571-314-3856
-                    </h2>
-                    <h2>
+                    </p>
+                    <p>
                         <a
                             className="App-link"
                             href="https://www.linkedin.com/in/alex-truxess-7702b1170"
@@ -84,7 +84,7 @@ function Contact() {
                             >
                             <div className="chicago10">LinkedIn</div>
                         </a>
-                    </h2>
+                    </p>
                     {/* <form onSubmit={handleSubmit}>
                         <label className="chicago" for="fname">Send me an email with your contact information!</label><br></br>
                         <input className="chicago" type="text" id="emailbox" name="emailbox" onChange={handleInputChange} width="500px"/>

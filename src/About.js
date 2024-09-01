@@ -6,7 +6,7 @@ function About() {
           <header className="App-header">
             <h1 className="chicago2" style={{color: "#63D471"}}>ABOUT ME</h1>
                 <div className="Thanks">
-                    <h1 className="shimmer" style={{fontSize:50}}>
+                    <h1 className="shimmer">
                         Thank you for visiting my website!
                     </h1>
                     <p className="chicago">
