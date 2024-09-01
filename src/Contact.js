@@ -67,11 +67,12 @@ function Contact() {
         <div className="contact">
           <header className="App-header">
             <h1 className="chicago2" style={{color: "#63D471"}}>CONTACT ME</h1>
+            <p className="width">
                 <div className="Info">
-                    <h2 className="chicago8">
+                    <h2 className="chicago3">
                         Email: alexm00@vt.edu
                     </h2>
-                    <h2 className="chicago9">
+                    <h2 className="chicago4">
                         Phone: 571-314-3856
                     </h2>
                     <h2>
@@ -92,6 +93,7 @@ function Contact() {
                         </button>
                     </form> */}
                 </div>
+            </p>
             </header>
         </div>
     );

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {
@@ -18,29 +21,25 @@
 }
 
 .App-logo3 {
-  height: 30vmin;
   pointer-events: none;
-  display:block;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   float: left;
   padding:20px 20px;
-  margin-left:250px;
 }
 
 .App-logo4 {
-  height: 30vmin;
   pointer-events: none;
-  display:block;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   float: right;
   padding:20px 20px;
-  margin-right:250px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -54,8 +53,16 @@
   src: local("ChicagoNormal"),
     url("./fonts/sysfont.woff") format("truetype");
 }
+.width {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:center;
+  text-align:center
+}
 .chicago {
   display: flex;
+  position: flex;
   justify-content: center;
   align-items: center;
   font-family: chicago;
@@ -67,7 +74,8 @@
 }
 .chicago2 {
   font-family: chicago;
-  display:inline-block;
+  position:flex;
+  display: flex;
   margin-left:0px;
   padding:15px 0px;
   background:#131313;
@@ -75,47 +83,50 @@
   text-align: left;
   width: 88%;
   padding-left: 150px;
+  padding-right: -150px;
 }
 .chicago3 {
-  margin-left:250px;
+  display: flex;
   font-family: chicago;
   float: left;
-  width: 30%;
+  width: 40%;
   border: 2px solid white;
   border-radius: 30px;
   padding:20px 20px;
   clear: left
 }
 .chicago4 {
-  margin-right:250px;
+  display: flex;
   font-family: chicago;
   float: right;
-  width: 30%;
+  width: 40%;
   border: 2px solid white;
   border-radius: 30px;
   padding:20px 20px;
 }
 
 .chicago5 {
-  margin-right:250px;
-  margin-top: 30px;
+  display: flex;
+  width: 40%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: chicago;
   float: right;
-  width: 30%;
+  margin: 0 auto;
   border: 2px solid white;
   border-radius: 30px;
   padding:20px 20px;
 }
 
 .chicago6 {
-  clear:both;
-  margin-top: 30px;
-  /* margin-right: 600px; */
+  display: flex;
   font-family: chicago;
-  /* float: inline-end; */
-  margin-left: 600px;
-  text-align:center;
-  width: 30%;
+  text-align: center;
+  align-items: center;
+  clear: both;
+
+  width: 40%;
   border: 2px solid white;
   border-radius: 30px;
   padding:20px 20px;
@@ -160,6 +171,13 @@
   margin-right: 30px;
 }
 .chicago10 {
+  display: flex;
+  font-family: chicago;
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding:20px 20px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +230,8 @@ hr.solid {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  text-align:center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 50px;
@@ -220,5 +239,10 @@ hr.solid {
 
 .App-link {
   color: #61dafb;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:center;
+  text-align:center;
 }
+
 
