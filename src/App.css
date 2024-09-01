@@ -238,7 +238,7 @@
     align-items: center;
     text-align:center;
     justify-content: center;
-    font-size: calc(5px + 1vmin);
+    font-size: calc(6px + 2vmin);
     color: white;
     padding-top: 40px;
   }
