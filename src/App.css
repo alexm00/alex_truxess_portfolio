@@ -1,248 +1,508 @@
-.App {
-  text-align: center;
-  display:flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-
-  /* float: left; */
-}
-
-.App-logo2 {
-  height: 20vmin;
-  pointer-events: none;
-}
-
-.App-logo3 {
-  pointer-events: none;
-  display:flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  float: left;
-  padding:20px 20px;
-}
-
-.App-logo4 {
-  pointer-events: none;
-  display:flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  float: right;
-  padding:20px 20px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 600px) {
+  
+  .App {
+    text-align: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* float: left; */
+  }
+  
+  .App-logo2 {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  .App-logo3 {
+    pointer-events: none;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:10px 10px;
+  }
+  
+  .App-logo4 {
+    pointer-events: none;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:10px 10px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @media screen and (max-width: 380px) {
+    .chicago3 {
+      width: 50%
+    }
+    .chicago4 {
+      width: 50%
+    }
+  }
+  
+  @font-face {
+    font-family: chicago;
+    src: local("ChicagoNormal"),
+      url("./fonts/sysfont.woff") format("truetype");
+  }
+  .width {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    text-align:center
+  }
+  .chicago {
+    display: flex;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  .chicago2 {
+    font-family: chicago;
+    position:flex;
+    display: flex;
+    margin-left:0px;
+    padding:5px 0px;
+    background:#131313;
+    color:#fff;
+    text-align: left;
+    width: 88%;
+    padding-left: 50px;
+  }
+  .chicago3 {
+    display: flex;
+    font-family: chicago;
+    float: left;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:10px 10px;
+    clear: left
+  }
+  .chicago4 {
+    display: flex;
+    font-family: chicago;
+    float: right;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:10px 10px;
+  }
+  
+  .chicago5 {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    float: right;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  }
+  
+  .chicago6 {
+    display: flex;
+    font-family: chicago;
+    text-align: center;
+    align-items: center;
+    clear: both;
+  
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  }
+  .chicago7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    padding:5px 5px;
+  }
+  .chicago8 {
+    display: flex;
+    float: left;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .chicago9 {
+    display: flex;
+    float:right;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .chicago10 {
+    display: flex;
+    font-family: chicago;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:30%
+  }
+  
+  .shimmer {
+    font-family: chicago;
+    color: rgb(0, 174, 255);
+    display:inline-block;
+    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+    font-size: 50px;
+  }
+  
+  @keyframes shimmer {
+    100% {-webkit-mask-position:left}
+  }
+  
+  /* Solid border */
+  hr.solid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px  #ffffff;
+    width: 88%;
+  }
+  
+  .left {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: calc(2px + 1vmin);
+    color: white;
+  }
+  
+  .App-header {
+    background-color: #000000;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    font-size: calc(5px + 1vmin);
+    color: white;
+    padding-top: 40px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    text-align:center;
+  }  
+  
 }
 
-@font-face {
-  font-family: chicago;
-  src: local("ChicagoNormal"),
-    url("./fonts/sysfont.woff") format("truetype");
+@media (min-width: 600px){
+  
+  .App {
+    text-align: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* float: left; */
+  }
+  
+  .App-logo2 {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  .App-logo3 {
+    pointer-events: none;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;
+    padding:20px 20px;
+  }
+  
+  .App-logo4 {
+    pointer-events: none;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+    padding:20px 20px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @font-face {
+    font-family: chicago;
+    src: local("ChicagoNormal"),
+      url("./fonts/sysfont.woff") format("truetype");
+  }
+  .width {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    text-align:center
+  }
+  .chicago {
+    display: flex;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  .chicago2 {
+    font-family: chicago;
+    position:flex;
+    display: flex;
+    margin-left:0px;
+    padding:15px 0px;
+    background:#131313;
+    color:#fff;
+    text-align: left;
+    width: 88%;
+    padding-left: 150px;
+    padding-right: -150px;
+  }
+  .chicago3 {
+    display: flex;
+    font-family: chicago;
+    float: left;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    clear: left
+  }
+  .chicago4 {
+    display: flex;
+    font-family: chicago;
+    float: right;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  }
+  
+  .chicago5 {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    float: right;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  }
+  
+  .chicago6 {
+    display: flex;
+    font-family: chicago;
+    text-align: center;
+    align-items: center;
+    clear: both;
+  
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  }
+  .chicago7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    padding:5px 5px;
+  }
+  .chicago8 {
+    display: flex;
+    float: left;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .chicago9 {
+    display: flex;
+    float:right;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .chicago10 {
+    display: flex;
+    font-family: chicago;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: chicago;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:30%
+  }
+  
+  .shimmer {
+    font-family: chicago;
+    color: rgb(0, 174, 255);
+    display:inline-block;
+    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+    font-size: 50px;
+  }
+  
+  @keyframes shimmer {
+    100% {-webkit-mask-position:left}
+  }
+  
+  /* Solid border */
+  hr.solid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px  #ffffff;
+    width: 88%;
+  }
+  
+  .left {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-header {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-top: 50px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    text-align:center;
+  }  
+  
 }
-.width {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  align-items:center;
-  text-align:center
-}
-.chicago {
-  display: flex;
-  position: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: chicago;
-  width: 75%;
-  margin: 0 auto;
-  text-align:center;
-  margin-top:30px;
-  margin-bottom:30px;
-}
-.chicago2 {
-  font-family: chicago;
-  position:flex;
-  display: flex;
-  margin-left:0px;
-  padding:15px 0px;
-  background:#131313;
-  color:#fff;
-  text-align: left;
-  width: 88%;
-  padding-left: 150px;
-  padding-right: -150px;
-}
-.chicago3 {
-  display: flex;
-  font-family: chicago;
-  float: left;
-  width: 40%;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-  clear: left
-}
-.chicago4 {
-  display: flex;
-  font-family: chicago;
-  float: right;
-  width: 40%;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-}
-
-.chicago5 {
-  display: flex;
-  width: 40%;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-family: chicago;
-  float: right;
-  margin: 0 auto;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-}
-
-.chicago6 {
-  display: flex;
-  font-family: chicago;
-  text-align: center;
-  align-items: center;
-  clear: both;
-
-  width: 40%;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-}
-.chicago7 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: chicago;
-  margin: 0 auto;
-  text-align:center;
-  padding:5px 5px;
-}
-.chicago8 {
-  display: flex;
-  float: left;
-  align-items: center;
-  font-family: chicago;
-  margin: 0 auto;
-  text-align:center;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.chicago9 {
-  display: flex;
-  float:right;
-  align-items: center;
-  font-family: chicago;
-  margin: 0 auto;
-  text-align:center;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.chicago10 {
-  display: flex;
-  font-family: chicago;
-  width: 40%;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: chicago;
-  margin: 0 auto;
-  text-align:center;
-  border: 2px solid white;
-  border-radius: 30px;
-  padding:20px 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width:30%
-}
-
-.shimmer {
-  font-family: chicago;
-  color: rgb(0, 174, 255);
-  display:inline-block;
-  -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
-  background-repeat: no-repeat;
-  animation: shimmer 2.5s infinite;
-  font-size: 50px;
-}
-
-@keyframes shimmer {
-  100% {-webkit-mask-position:left}
-}
-
-/* Solid border */
-hr.solid {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-top: 3px  #ffffff;
-  width: 88%;
-}
-
-.left {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-header {
-  background-color: #000000;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align:center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding-top: 50px;
-}
-
-.App-link {
-  color: #61dafb;
-  margin-left: auto;
-  margin-right: auto;
-  align-items:center;
-  text-align:center;
-}
-
 
