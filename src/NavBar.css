@@ -48,7 +48,7 @@
  }
 
  .hamburger {
-    display: none
+    display: none;
  }
  
  
@@ -65,8 +65,9 @@
  
     .hamburger {
         display: block;
-        margin-top: 10px;
-        margin-left: 90px
+        margin-top: 15px;
+        margin-left: 110px;
+        scale: 130%
     }
  
     .nav-menu {
