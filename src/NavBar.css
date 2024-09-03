@@ -65,9 +65,11 @@
  
     .hamburger {
         display: block;
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-left: 90px;
+        /* margin-top: 15px;
         margin-left: 110px;
-        scale: 130%
+        scale: 130% */
     }
  
     .nav-menu {
