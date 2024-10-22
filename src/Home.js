@@ -1,6 +1,7 @@
 import React from "react";
 import logo from './Headshot Fall 2024.jpeg';
 
+
 //typing animation
 import Typical from 'react-typical';
 
