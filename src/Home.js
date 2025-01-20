@@ -9,7 +9,7 @@ import Typical from 'react-typical';
   import "./fonts/ChicagoNormal.ttf";
 
 function clickMe(){
-    alert('Name: Alex Truxess\nOccupation: Graduate Student at Virginia Tech\nField: Masters of Engineering Program for Computer Science\nFocus: Human-Computer Interaction\nCurrent Location: Virginia')
+    alert('Name: Alex Truxess\nOccupation: Just graduated with a Master of Engineering!\nField: Computer Science\nFocus: Software Dev and Human-Computer Interaction\nCurrent Location: Northern Virginia')
 }
 
 function Home() {

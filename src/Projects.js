@@ -115,6 +115,33 @@ function Projects() {
 
                 <hr class="solid"></hr>
 
+                <div className ="HokieHangout">
+                    <p className="width">
+                        <h2 className="chicago" style={{color: "#63D471"}}>Hokie Hangout</h2>
+                        <p className="chicago3">
+                            For my Master's level capstone course, I helped work on the front-end of a social media mobile application.
+                        </p>
+                        <p className="chicago4">
+                            This application was intended for Virginia Tech students to plan casual events and connect with each other. 
+                        </p>
+                        <p className="chicago3">
+                            We used Expo with React and built a product we were proud of with tight time constraints in three sprints.
+                        </p>
+                        <p>
+                            <a
+                                className="App-link"
+                                href="https://vtechworks.lib.vt.edu/items/201d15b6-0d0a-4511-8392-f9080dfdc641"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <div className="chicago5">vtechworks</div>
+                            </a>
+                        </p>
+                    </p>
+                </div>
+
+                <hr class="solid"></hr>
+
                 <div className ="SculptAR">
                     <p className="width">
                         <h2 className="chicago" style={{color: "#63D471"}}>SculptAR Park</h2>

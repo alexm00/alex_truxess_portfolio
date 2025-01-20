@@ -10,10 +10,10 @@ function About() {
                         Thank you for visiting my website!
                     </h1>
                     <p className="chicago">
-                        I received my Bachelor's degree in Computer Science December 2022 and I'm currently pursuing my Master of Engineering from Virginia Tech. I plan to graduate December 2024.
+                        I received my Bachelor's degree in Computer Science December 2022 and my Master of Engineering degree in Computer Science December 2024.
                     </p>
                     <p className="chicago">
-                    The focus for my masters is Human-Computer Interaction and Software Development & Applications. I have an interest in front-end development and design, as well as 3D animation and video editing. 
+                    The focuses for my masters were Human-Computer Interaction and Software Development & Applications. I have an interest in front-end development and design, as well as 3D animation and video editing. 
                     </p>
                 </div>
                 <div className="Interests">
