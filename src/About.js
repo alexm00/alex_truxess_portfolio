@@ -19,18 +19,22 @@ function About() {
                 <div className="Interests">
                     <p className="width">
                         <h2 className="chicago" style={{color: "#63D471"}}>My Interests</h2>
-                        <p className="chicago3">
-                            I am a movie buff and I have a physical disc collection of roughly 700 DVDs and Blu-rays.
-                        </p>
-                        <p className="chicago4">
-                            I received my 4th degree black belt at the age of 15.
-                        </p>
-                        <p className="chicago3">
-                            I love to go disc golfing and trying different IPAS.
-                        </p>
-                        <p className="chicago4">
-                            Playing board games with friends (I am obsessed with Catan)
-                        </p>
+                        <div class="text-container">
+                            <p className="chicago3">
+                                I am a movie buff and I have a physical disc collection of roughly 700 DVDs and Blu-rays.
+                            </p>
+                            <p className="chicago4">
+                                I received my 4th degree black belt at the age of 15.
+                            </p>
+                        </div>
+                        <div class="text-container">
+                            <p className="chicago3">
+                                I love to go disc golfing and trying different IPAS.
+                            </p>
+                            <p className="chicago4">
+                                Playing board games with friends (I am obsessed with Catan)
+                            </p>
+                        </div>
                     </p>
                 </div>
             </header>

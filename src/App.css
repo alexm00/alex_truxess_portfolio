@@ -277,26 +277,36 @@
     pointer-events: none;
   }
   
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+  }
+
   .App-logo3 {
     pointer-events: none;
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    float: left;
-    padding:20px 20px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 400px;
   }
   
   .App-logo4 {
     pointer-events: none;
-    display:flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     float: right;
     padding:20px 20px;
+    max-width: 100%; /* Prevents overflow */
+    height: auto;  /* Maintains aspect ratio */
+    clear: both; /* Prevents text wrapping around */
   }
   
   @media (prefers-reduced-motion: no-preference) {
@@ -342,26 +352,33 @@
     padding-left: 150px;
     padding-right: -150px;
   }
+  .text-container {
+    display: flex;
+    justify-content: space-between; /* Keeps text side-by-side */
+    align-items: center; /* Aligns text pieces */
+}
   .chicago3 {
     justify-content: center;
-    display: flex;
+    display: block;
     font-family: chicago;
     float: left;
     width: 40%;
     border: 2px solid white;
     border-radius: 30px;
     padding:20px 20px;
-    clear: left
+    clear: left;
+    margin-bottom: 40px;
   }
   .chicago4 {
     justify-content: center;
-    display: flex;
+    display: block;
     font-family: chicago;
     float: right;
     width: 40%;
     border: 2px solid white;
     border-radius: 30px;
     padding:20px 20px;
+    margin-bottom: 40px;
   }
   
   .chicago5 {
